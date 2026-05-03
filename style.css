@@ -1,0 +1,66 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff69b4; /* 핑크 계열 색상 */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ranking-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.member-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 15px;
+    width: 280px; /* 각 카드 너비 설정 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.member-info {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.member-info h2 {
+    margin-top: 0;
+    color: #ff69b4;
+}
+
+.rank {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.member-image-container {
+    width: 100%;
+    height: 200px; /* 이미지 영역 높이 */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee; /* 이미지 로딩 전 배경색 */
+}
+
+.member-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 이미지가 잘리더라도 영역을 채우도록 설정 */
+}
